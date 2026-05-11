@@ -16,15 +16,15 @@ def get_version():
 version = get_version()
     
 setuptools.setup(
-    name="Pytorch-detection", # Replace with your own username
+    name="retinaface", # Replace with your own username
     version="0.0.1",
-    author="Hoang Phuong",
-    author_email="hphuongdhsp@gmail.com",
+    author="Shreyas Misra",
+    author_email="shreyasm@nvidia.com",
     license='MIT',
-    description = "A small example package for face recognition",
+    description = "A package for face recognition",
     long_description = long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/hphuongdhsp/retinaface",
+    url="https://github.com/NVshreyas/retinaface",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
